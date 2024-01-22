@@ -15,7 +15,7 @@ var virtualData = [];
             'Sweden', 'Switzerland', 'Netherlands', 'UK', 'Ukraine', 'US', 'Wales', 'West Indies', 'China', 'Hong Kong', 'Italy', 'Philippines', 'Turkey', 'Botswana',
             'Sri Lanka', 'Algeria', 'Bangladesh', 'Egypt', 'Malaysia'];
         for (var i = 0; i < 301; i++) {
-            exports.virtualData.push({
+            virtualData.push({
                 'SNo': (i + 1),
                 'FIELD1': (i + 1) + ' FIELD1 ' + names[Math.floor(Math.random() * names.length)],
                 'FIELD2': (i + 1) + ' FIELD2 ' + 1967 + (i % 10),
