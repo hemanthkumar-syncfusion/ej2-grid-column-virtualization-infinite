@@ -31,11 +31,6 @@ var grid = new ej.grids.Grid({
   enableInfiniteScrolling: true,
   height: 400,
   frozenRows: 2,
-  editSettings: { allowAdding: true, allowEditing: true, allowDeleting: true, mode: 'Normal', newRowPosition: 'Top' },
-  toolbar: ['Add', 'Edit', 'Delete', 'Update', 'Cancel'],
-  allowSorting: true,
-  allowFiltering: true,
-  allowGrouping: true,
   columns: [
     { field: 'SNo', width: 140, isPrimaryKey: true, validationRules: { required: true, digits: true }, freeze: 'Left' },
     { field: 'FIELD1', width: 140 },
